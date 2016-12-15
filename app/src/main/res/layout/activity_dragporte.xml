@@ -6,13 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="fr.wildcodeschool.team.thearray.Dragporte">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
     <TextView
         android:text="Blabla remets dans lordre"
-        android:layout_width="match_parent"
+        android:layout_width="280sp"
         android:layout_height="200dp"
         android:id="@+id/textView" />
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:id="@+id/chrono"/>
+</LinearLayout>
 
     <com.jmedeisis.draglinearlayout.DragLinearLayout
         android:id="@+id/container"

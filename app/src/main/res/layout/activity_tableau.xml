@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="fr.wildcodeschool.team.thearray.Tableau">
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:id="@+id/chrono"/>
 <pl.droidsonroids.gif.GifImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
