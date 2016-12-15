@@ -14,7 +14,7 @@ public class Tableau extends AppCompatActivity {
         setContentView(R.layout.activity_tableau);
 
         GifImageView gifview = (GifImageView)findViewById(R.id.gif);
-        gifview.setImageResource(R.drawable.gif1);
+        gifview.setImageResource(R.drawable.tableau);
 
         gifview.setOnClickListener(new View.OnClickListener() {
             @Override

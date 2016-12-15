@@ -9,6 +9,5 @@
 <pl.droidsonroids.gif.GifImageView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/gif"
-    android:background="@drawable/gif1"/>
+    android:id="@+id/gif"/>
 </RelativeLayout>
