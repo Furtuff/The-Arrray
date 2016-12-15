@@ -11,7 +11,7 @@ public class Mamie extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_suspect);
+        setContentView(R.layout.activity_mamie);
         final Button btn = (Button) findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
 

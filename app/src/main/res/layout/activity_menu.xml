@@ -22,7 +22,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         app:srcCompat="@android:drawable/btn_star_big_on"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         app:srcCompat="@android:drawable/ic_menu_help"
         android:layout_marginTop="67dp"
         android:id="@+id/ranked"

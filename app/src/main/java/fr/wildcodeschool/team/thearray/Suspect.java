@@ -12,6 +12,7 @@ public class Suspect extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suspect);
+
         final Button btn = (Button) findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
 
