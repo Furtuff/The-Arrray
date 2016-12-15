@@ -8,13 +8,29 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Rue" />
+        <activity android:name=".Entree" />
+        <activity android:name=".Suspect" />
+        <activity android:name=".Mamie" />
+        <activity android:name=".Culdesac" />
+        <activity android:name=".Cookie" />
+        <activity android:name=".GameOver" />
+        <activity android:name=".Crachat" />
+        <activity android:name=".Medic" />
+        <activity android:name=".Glotte" />
+        <activity android:name=".Vomi" />
+        <activity android:name=".Escalier" />
+        <activity android:name=".Ascenseur" />
+        <activity android:name=".Culdesac2" />
+        <activity android:name=".Tableau" />
+        <activity android:name=".Wcporte"></activity>
     </application>
 
 </manifest>
