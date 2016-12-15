@@ -29,7 +29,7 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="suivant"
+        android:text="encore un cul de sac, je remonte"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/button"

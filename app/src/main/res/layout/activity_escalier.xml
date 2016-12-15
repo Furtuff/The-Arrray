@@ -28,16 +28,16 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
+        android:text="enbasvers cul de sac"
+        android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:id="@+id/button1" />
 
     <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
+        android:text="en haut vers ascenseur"
+        android:layout_width="120dp"
         android:layout_height="50dp"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"

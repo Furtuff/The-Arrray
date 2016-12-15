@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dragporte"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.wildcodeschool.team.thearray.Dragporte">
+
+    <TextView
+        android:text="Blabla remets dans lordre"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/textView" />
+
+
+    <com.jmedeisis.draglinearlayout.DragLinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@+id/textView" >
+
+        <TextView
+            android:id="@+id/drag1"
+            android:text="drag1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/drag2"
+            android:text="drag2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/drag3"
+            android:text="drag3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+    <TextView
+            android:id="@+id/drag4"
+            android:text="drag4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        </com.jmedeisis.draglinearlayout.DragLinearLayout>
+
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/button"/>
+
+</LinearLayout>

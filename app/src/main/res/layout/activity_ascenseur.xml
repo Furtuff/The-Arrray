@@ -12,7 +12,7 @@
     tools:context="fr.wildcodeschool.team.thearray.Ascenseur">
 
     <TextView
-        android:text="blablablablablablablablblablblablablablablabla"
+        android:text="trop chelou le tableau de l'ascenseur"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentStart="true"

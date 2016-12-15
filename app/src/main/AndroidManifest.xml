@@ -32,6 +32,9 @@
         <activity android:name=".Tableau" />
         <activity android:name=".Wcporte"></activity>
         <service android:name=".BroadcastService"></service>
+        <activity android:name=".Wcporte" />
+        <activity android:name=".Poignee" />
+        <activity android:name=".Dragporte"></activity>
     </application>
 
 </manifest>

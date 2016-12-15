@@ -12,7 +12,8 @@ public class Escalier extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escalier);
-        final Button btn = (Button) findViewById(R.id.button);
+
+        final Button btn = (Button) findViewById(R.id.button1);
         btn.setOnClickListener(new View.OnClickListener() {
 
             @Override
