@@ -24,6 +24,7 @@ TextView chrono;
             public void onClick(View V){
                 {
                     Intent intent = new Intent(Rue.this, Entree.class);
+                    unregisterReceiver(br);
                     startActivity(intent);
                 }
             }

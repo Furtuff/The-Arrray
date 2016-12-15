@@ -33,7 +33,11 @@ public class BroadcastService extends Service {
                     MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
                     mediaPlayer.start();
                     cyclic = millisUntilFinished;
-
+                    if(millisUntilFinished <= 1000){
+                        Intent dialogIntent = new Intent(getApplicationContext(), GameOver.class);
+                        dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(dialogIntent);
+                    }
                 }
                 bi.putExtra("countdown", millisUntilFinished);
 
