@@ -15,27 +15,44 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Rue" />
-        <activity android:name=".Entree" />
-        <activity android:name=".Suspect" />
-        <activity android:name=".Mamie" />
-        <activity android:name=".Culdesac" />
-        <activity android:name=".Cookie" />
-        <activity android:name=".GameOver" />
-        <activity android:name=".Crachat" />
-        <activity android:name=".Medic" />
-        <activity android:name=".Glotte" />
-        <activity android:name=".Vomi" />
-        <activity android:name=".Escalier" />
-        <activity android:name=".Ascenseur" />
-        <activity android:name=".Culdesac2" />
-        <activity android:name=".Tableau" />
-        <activity android:name=".Wcporte"></activity>
-        <service android:name=".BroadcastService"></service>
-        <activity android:name=".Wcporte" />
-        <activity android:name=".Poignee" />
-        <activity android:name=".Dragporte" />
-        <activity android:name=".Victory"></activity>
-    </application>
+        <activity android:name=".Rue"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Entree"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Suspect"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mamie"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Culdesac"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Cookie"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GameOver"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Crachat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Medic"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Glotte"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Vomi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Escalier"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Ascenseur"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Culdesac2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tableau"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Wcporte"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Poignee"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Dragporte"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Victory"
+            android:screenOrientation="portrait"/>
+<service android:name=".BroadcastService"/>    </application>
 
 </manifest>
