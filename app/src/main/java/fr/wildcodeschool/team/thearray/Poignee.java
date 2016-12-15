@@ -15,7 +15,7 @@ public class Poignee extends AppCompatActivity {
         setContentView(R.layout.activity_poignee);
 
         GifImageView gifview = (GifImageView)findViewById(R.id.gif);
-        gifview.setImageResource(R.drawable.gif1);
+        gifview.setImageResource(R.drawable.portebloque);
 
         gifview.setOnClickListener(new View.OnClickListener() {
 

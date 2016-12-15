@@ -15,7 +15,7 @@ public class GameOver extends AppCompatActivity {
         setContentView(R.layout.activity_game_over);
 
             GifImageView gifview = (GifImageView)findViewById(R.id.gif);
-            gifview.setImageResource(R.drawable.gif1);
+            gifview.setImageResource(R.drawable.gameover);
 
             gifview.setOnClickListener(new View.OnClickListener() {
 
