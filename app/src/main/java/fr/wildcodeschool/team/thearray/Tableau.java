@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-
 import pl.droidsonroids.gif.GifImageView;
 
 public class Tableau extends AppCompatActivity {
@@ -15,12 +13,10 @@ public class Tableau extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tableau);
 
-        GifImageView gifImageView = (GifImageView)findViewById(R.id.gif);
-        gifImageView.setImageResource(R.drawable.gif1);
+        GifImageView gifview = (GifImageView)findViewById(R.id.gif);
+        gifview.setImageResource(R.drawable.gif1);
 
-        final GifImageView gifImageView1 = (GifImageView)findViewById(R.id.gif);
-        gifImageView.setOnClickListener(new View.OnClickListener() {
-
+        gifview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View V){
                 {

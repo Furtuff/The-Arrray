@@ -30,7 +30,9 @@
         <activity android:name=".Ascenseur" />
         <activity android:name=".Culdesac2" />
         <activity android:name=".Tableau" />
-        <activity android:name=".Wcporte"></activity>
+        <activity android:name=".Wcporte" />
+        <activity android:name=".Poignee" />
+        <activity android:name=".Dragporte"></activity>
     </application>
 
 </manifest>

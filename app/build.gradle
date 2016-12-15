@@ -26,5 +26,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.3'
+    compile 'com.jmedeisis:draglinearlayout:1.1.0'
     testCompile 'junit:junit:4.12'
 }
