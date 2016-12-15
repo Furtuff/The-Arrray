@@ -31,8 +31,8 @@ public class BroadcastService extends Service {
                 Log.i(TAG, "Countdown seconds remaining: " + millisUntilFinished / 1000);
                 bi.putExtra("countdown", millisUntilFinished);
                 if (java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished)== java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(cyclic)-20){
-                    //MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
-                   // mediaPlayer.start();
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
+                    mediaPlayer.start();
                     cyclic = millisUntilFinished;
 
                 }
