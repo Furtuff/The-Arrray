@@ -18,7 +18,7 @@ public class Medic extends AppCompatActivity {
     int count = 0;
     TextView text;
     int count1 =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Une autre salle.\nUn gars m'interpelle :\n\"Ça va, t'as pas l'air bien ? Tiens, prends un medoc.\"";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

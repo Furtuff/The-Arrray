@@ -16,7 +16,7 @@ public class Ascenseur extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Un ascenseur !\nJe m'engouffre dedans.\nPlutôt un monte-charge : il n'y a qu'un bouton et un tableau chelou.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,7 +16,7 @@ public class Escalier extends AppCompatActivity {
     TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Là, un panneau W.C\nPar terre, bien sûr...\nDescendre ou monter ? Vite !";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

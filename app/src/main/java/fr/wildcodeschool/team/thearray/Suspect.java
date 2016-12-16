@@ -16,7 +16,7 @@ public class Suspect extends AppCompatActivity {
     TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Y a rien ici !\nCe type là, a l'air sympa. \naJe lui demande et il me réponds :\"C'est à gauche\" avec un sourire en coin. Je me méfie : gauche ou droite ?";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

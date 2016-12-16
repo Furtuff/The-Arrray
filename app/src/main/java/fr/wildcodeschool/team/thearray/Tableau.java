@@ -17,7 +17,7 @@ public class Tableau extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Oulà, non...\nNe pas regarder...\nBon je dois me concentrer sur les couleurs qui ne me donnent pas envie de chier et choisir la bonne.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

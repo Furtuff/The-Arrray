@@ -17,7 +17,7 @@ public class Vomi extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "J'ai tout dégueulé\ndans une plante à côté.\nJe me dépêche de poursuivre mon chemin";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -17,7 +17,7 @@ public class Wcporte extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Je les vois !\nJe me précipite en\ncourant vers les toilettes et tourne la poignée.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

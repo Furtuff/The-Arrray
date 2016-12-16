@@ -19,7 +19,7 @@ TextView chrono;
     long score ;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "La porte est bloquée!\nFaut que je rentre.\nJe dois l'ouvrir vite ou c'est la cata... Je ramasse un tournevis par terre.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

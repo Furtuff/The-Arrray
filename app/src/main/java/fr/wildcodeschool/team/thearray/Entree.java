@@ -16,9 +16,9 @@ public class Entree extends AppCompatActivity {
     TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Faut que je me dépêche.\nSi je trouve pas des W.C\nd'ici 3 minutes, je crains le pire... Le mec à qui j'ai demandé mon chemin me réponds au fond à droite.";
 
-    @Override
+              @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entree);

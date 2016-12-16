@@ -16,7 +16,7 @@ public class Culdesac extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "C'est un cul-de-sac ! \nJe perds du temps.\nBon, allez, je vais à droite cette fois. Vite !";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
