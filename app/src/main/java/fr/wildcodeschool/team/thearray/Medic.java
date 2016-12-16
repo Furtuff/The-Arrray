@@ -57,7 +57,8 @@ public class Medic extends AppCompatActivity {
             public void onClick(View V){
                 {
                     switch (count){
-                        case 0: imgdoc.setImageResource(R.drawable.pillule);
+                        case 0:
+                            imgdoc.setImageResource(R.drawable.pillule);
                         count ++;
                             break;
                         case  1: Intent intent = new Intent(Medic.this, Glotte.class);

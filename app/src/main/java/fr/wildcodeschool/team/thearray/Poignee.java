@@ -14,9 +14,9 @@ public class Poignee extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_poignee);
-
+        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.portebloqueson);
+        mediaPlayer.start();
         GifImageView gifview = (GifImageView)findViewById(R.id.gif);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.fart_raspberry);
         gifview.setImageResource(R.drawable.portebloque);
 
         gifview.setOnClickListener(new View.OnClickListener() {

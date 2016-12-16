@@ -27,8 +27,7 @@ TextView chrono;
         text = (TextView)findViewById(R.id.text);
         text.setTypeface(typeface);
         text.setTextSize(18);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.portebloqueson);
-        mediaPlayer.start();
+
         CountDownTimer cdt = null;
 
         cdt = new CountDownTimer(6250, 50) {
