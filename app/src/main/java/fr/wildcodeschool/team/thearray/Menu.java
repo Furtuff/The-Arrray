@@ -13,6 +13,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+        startService(new Intent(this,MusicMenuService.class));
 
         final Button btnlaunch = (Button) findViewById(R.id.launcher);
         btnlaunch.setOnClickListener(new View.OnClickListener() {
@@ -20,6 +21,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View V){
             {
+                stopService(new Intent(getApplicationContext(),MusicMenuService.class));
                 Intent intent = new Intent(Menu.this, Rue.class);
                 startActivity(intent);
             }
