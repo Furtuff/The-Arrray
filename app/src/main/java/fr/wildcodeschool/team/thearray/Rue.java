@@ -29,7 +29,7 @@ TextView chrono;
         //text.setTypeface(typeface);
         CountDownTimer cdt = null;
 
-        cdt = new CountDownTimer(2500, 50) {
+        cdt = new CountDownTimer(6250, 50) {
             @Override
 
             public void onTick(long millisUntilFinished) {

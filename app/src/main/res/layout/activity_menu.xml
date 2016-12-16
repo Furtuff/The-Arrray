@@ -23,7 +23,7 @@
         android:layout_height="60dp"
         android:background="@drawable/bouton_jouer"
         android:id="@+id/launcher"
-        android:layout_marginBottom="57dp"
+        android:layout_marginBottom="46dp"
         android:layout_above="@+id/ranked"
         android:layout_centerHorizontal="true" />
 
