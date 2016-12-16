@@ -2,6 +2,7 @@ package fr.wildcodeschool.team.thearray;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -52,21 +53,28 @@ public class Glotte extends AppCompatActivity {
             @Override
             public void onClick(View V){
                 {
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.tousse);
                     switch (sequence) {
                         case 1: glotte.setImageResource(R.drawable.glotte02);
+                            mediaPlayer.start();
                                 sequence ++;
                             break;
                         case 2: glotte.setImageResource(R.drawable.glotte03);
+                            mediaPlayer.start();
                             sequence++;
                             break;
                         case 3: glotte.setImageResource(R.drawable.glotte01);
+                            mediaPlayer.start();
                             sequence++;
                             break;
                         case 4: glotte.setImageResource(R.drawable.glotte02);
+                            mediaPlayer.start();
                             sequence++;
                             break;
                         case 5: glotte.setImageResource(R.drawable.glotte03);
                             sequence++;
+                            MediaPlayer mediaPlayer2 = MediaPlayer.create(getApplicationContext(),R.raw.vomi);
+                            mediaPlayer2.start();
                             Intent intent = new Intent(Glotte.this, Vomi.class);
                            finish();
                             startActivity(intent);

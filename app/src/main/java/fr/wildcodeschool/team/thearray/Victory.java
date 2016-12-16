@@ -30,6 +30,8 @@ MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.hallelluja);
             public void onClick(View V){
                 {
                     Intent intent = new Intent(Victory.this, Scores.class);
+                    intent.putExtra("score", getIntent().getLongExtra("score",0));
+                    finish();
                     startActivity(intent);
                 }
             }

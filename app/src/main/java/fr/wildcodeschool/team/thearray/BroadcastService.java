@@ -57,6 +57,7 @@ public class BroadcastService extends Service {
 
         cdt.cancel();
         Log.i(TAG, "Timer cancelled");
+        mediaPlayer.stop();
         super.onDestroy();
     }
 
