@@ -15,21 +15,22 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Rue extends AppCompatActivity {
-TextView chrono;
+    TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Merde, je sais pas ce que j'ai bouffer\nmais faut absolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
+    String chier = "Merde, je sais pas ce que\nj'ai bouffé mais faut\nabsolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rue);
         startService(new Intent(this, BroadcastService.class));
-        //Typeface typeface = Typeface.createFromAsset(getAssets(),"nomduficher.ttf");
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"verdana.ttf");
         text = (TextView)findViewById(R.id.text);
-        //text.setTypeface(typeface);
+        text.setTypeface(typeface);
+        text.setTextSize(18);
         CountDownTimer cdt = null;
 
-        cdt = new CountDownTimer(2500, 50) {
+        cdt = new CountDownTimer(6250, 50) {
             @Override
 
             public void onTick(long millisUntilFinished) {

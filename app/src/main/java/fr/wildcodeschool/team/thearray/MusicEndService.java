@@ -16,7 +16,7 @@ public class MusicEndService extends Service {
     @Override
     public void onCreate(){
         super.onCreate();
-        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
+        MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.thearraytheme);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
     }

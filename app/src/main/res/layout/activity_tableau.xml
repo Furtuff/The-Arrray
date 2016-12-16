@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context="fr.wildcodeschool.team.thearray.Tableau">
     <TextView
+        android:text="FAUT QUE J'AILLE CHIER "
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/text"
+        />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

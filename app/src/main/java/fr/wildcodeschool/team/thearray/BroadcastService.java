@@ -11,6 +11,7 @@ import android.util.Log;
 public class BroadcastService extends Service {
     private final static String TAG = "BroadcastService";
     long cyclic = 180000;
+    MediaPlayer mediaPlayer;
 
     public static final String COUNTDOWN_BR = "your_package_name.countdown_br";
     Intent bi = new Intent(COUNTDOWN_BR);
@@ -20,7 +21,7 @@ public class BroadcastService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
+        mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.thearraytheme);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
 
@@ -61,6 +62,7 @@ MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        mediaPlayer.start();
         return super.onStartCommand(intent, flags, startId);
     }
 
