@@ -12,8 +12,18 @@
 
    <ImageView
        android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+       android:layout_height="520dp"
        android:src="@drawable/glotte01"
-       android:id="@+id/glotte"/>
+       android:id="@+id/glotte"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentStart="true" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:text="Appuie vite pour te faire vomir"
+       android:layout_height="150dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentStart="true"
+       android:id="@+id/textView2" />
 
 </RelativeLayout>

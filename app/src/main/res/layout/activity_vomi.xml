@@ -29,11 +29,12 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="suivant"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
         android:id="@+id/button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bouton_fleche_droite"
         android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true" />
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
