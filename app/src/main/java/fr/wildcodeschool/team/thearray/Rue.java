@@ -18,7 +18,7 @@ public class Rue extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "IL FAUT QUE J'AILLE CHIER";
+    String chier = "Merde, je sais pas ce que j'ai bouffer\nmais faut absolument que j'aille chier...\nTiens là, The Array, il doit y avoir des W.C";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

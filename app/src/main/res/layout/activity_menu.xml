@@ -5,20 +5,9 @@
     android:id="@+id/activity_menu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menu"
     tools:context="fr.wildcodeschool.team.thearray.Menu">
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:background="@drawable/bouton_home"
-        android:id="@+id/appname"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp" />
 
     <Button
         android:layout_width="200dp"
@@ -34,8 +23,8 @@
         android:layout_height="60dp"
         android:background="@drawable/bouton_jouer"
         android:id="@+id/launcher"
-        android:layout_marginBottom="58dp"
+        android:layout_marginBottom="57dp"
         android:layout_above="@+id/ranked"
-        android:layout_alignStart="@+id/appname" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
