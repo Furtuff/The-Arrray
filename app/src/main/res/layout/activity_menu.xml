@@ -12,30 +12,30 @@
     tools:context="fr.wildcodeschool.team.thearray.Menu">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_help"
-        android:layout_below="@+id/appname"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="174dp"
-        android:id="@+id/launcher" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bouton_home"
+        android:id="@+id/appname"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="71dp"
-        android:id="@+id/appname" />
+        android:layout_marginTop="51dp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        app:srcCompat="@android:drawable/ic_menu_help"
-        android:layout_marginTop="67dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bouton_score"
         android:id="@+id/ranked"
-        android:layout_below="@+id/launcher"
+        android:layout_marginBottom="111dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/launcher" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bouton_jouer"
+        android:id="@+id/launcher"
+        android:layout_marginBottom="58dp"
+        android:layout_above="@+id/ranked"
+        android:layout_alignStart="@+id/appname" />
 
 </RelativeLayout>

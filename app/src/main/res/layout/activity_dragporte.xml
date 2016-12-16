@@ -43,24 +43,27 @@
             android:layout_height="70dp"/>
 
         <TextView
-            android:id="@+id/drag3"
-            android:text="drag3"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"/>
-
-    <TextView
             android:id="@+id/drag4"
             android:text="drag4"
             android:layout_width="match_parent"
             android:layout_height="70dp"/>
 
-        </com.jmedeisis.draglinearlayout.DragLinearLayout>
+        <TextView
+            android:id="@+id/drag3"
+            android:text="drag3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+    </com.jmedeisis.draglinearlayout.DragLinearLayout>
 
 
     <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bouton_fleche_droite"
         android:id="@+id/button"/>
 
 </LinearLayout>

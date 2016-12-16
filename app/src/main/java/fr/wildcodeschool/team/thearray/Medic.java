@@ -8,24 +8,36 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Medic extends AppCompatActivity {
-TextView chrono;
+    TextView chrono;
+    int count = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medic);
-        final Button btn = (Button) findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
+
+        final ImageView imgdoc = (ImageView) findViewById(R.id.med);
+        imgdoc.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View V){
                 {
-                    Intent intent = new Intent(Medic.this, Glotte.class);
-                    unregisterReceiver(br);
-                    finish();
-                    startActivity(intent);
+                    switch (count){
+                        case 0: imgdoc.setImageResource(R.drawable.pillule);
+                        count ++;
+                            break;
+                        case  1: Intent intent = new Intent(Medic.this, Glotte.class);
+                            unregisterReceiver(br);
+                            finish();
+                            startActivity(intent);
+                            break;
+                    }
+
+
+
                 }
             }
         });
