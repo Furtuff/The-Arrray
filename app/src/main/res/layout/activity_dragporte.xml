@@ -32,25 +32,25 @@
 
         <TextView
             android:id="@+id/drag1"
-            android:text="drag1"
+            android:text="Tourner la poignée plusieurs fois"
             android:layout_width="match_parent"
             android:layout_height="70dp"/>
 
         <TextView
             android:id="@+id/drag2"
-            android:text="drag2"
+            android:text="Essayer de crocheter la serrure avec le tournevis "
             android:layout_width="match_parent"
             android:layout_height="70dp"/>
 
         <TextView
             android:id="@+id/drag4"
-            android:text="drag4"
+            android:text="Donner des coups d'épaule dans la porte"
             android:layout_width="match_parent"
             android:layout_height="70dp"/>
 
         <TextView
             android:id="@+id/drag3"
-            android:text="drag3"
+            android:text="Hurler à la mort"
             android:layout_width="match_parent"
             android:layout_height="70dp"/>
 
