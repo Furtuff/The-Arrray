@@ -36,7 +36,6 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="suivant"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:background="@drawable/bouton_fleche_droite"

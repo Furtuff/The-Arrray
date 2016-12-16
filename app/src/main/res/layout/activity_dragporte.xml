@@ -62,7 +62,7 @@
         android:layout_height="30dp"
         android:layout_gravity="right"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/bouton_fleche_droite"
         android:id="@+id/button"/>
 

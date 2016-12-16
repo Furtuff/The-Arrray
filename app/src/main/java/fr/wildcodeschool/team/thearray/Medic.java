@@ -20,7 +20,8 @@ public class Medic extends AppCompatActivity {
         setContentView(R.layout.activity_medic);
 
         final ImageView imgdoc = (ImageView) findViewById(R.id.med);
-        imgdoc.setOnClickListener(new View.OnClickListener() {
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View V){
