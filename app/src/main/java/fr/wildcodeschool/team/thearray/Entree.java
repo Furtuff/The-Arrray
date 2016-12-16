@@ -23,6 +23,7 @@ public class Entree extends AppCompatActivity {
             public void onClick(View V){
                 {
                     Intent intent = new Intent(Entree.this, Suspect.class);
+                    finish();
                     unregisterReceiver(br);
                     startActivity(intent);
                 }

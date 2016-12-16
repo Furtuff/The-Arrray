@@ -15,44 +15,69 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Rue"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Entree"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Suspect"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Mamie"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Culdesac"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Cookie"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".GameOver"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Crachat"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Medic"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Glotte"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Vomi"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Escalier"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Ascenseur"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Culdesac2"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Tableau"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Wcporte"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Poignee"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Dragporte"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Victory"
-            android:screenOrientation="portrait"/>
-<service android:name=".BroadcastService"/>    </application>
+        <activity
+            android:name=".Rue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Entree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Suspect"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mamie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culdesac"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cookie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameOver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Crachat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Medic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Glotte"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Vomi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Escalier"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ascenseur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culdesac2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tableau"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Wcporte"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Poignee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dragporte"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Victory"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".BroadcastService" />
+        <service
+            android:name=".MusicMenuService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
 
 </manifest>

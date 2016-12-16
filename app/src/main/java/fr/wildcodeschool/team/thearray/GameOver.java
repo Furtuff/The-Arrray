@@ -23,6 +23,7 @@ public class GameOver extends AppCompatActivity {
                 public void onClick(View V){
                     {
                         Intent intent = new Intent(GameOver.this, Menu.class);
+                        stopService(new Intent(getApplicationContext(),BroadcastService.class));
                         startActivity(intent);
                     }
                 }

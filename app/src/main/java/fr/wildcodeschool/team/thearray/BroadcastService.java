@@ -20,7 +20,10 @@ public class BroadcastService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
+        mediaPlayer.setLooping(true);
 
+        mediaPlayer.start();
         Log.i(TAG, "Starting timer...");
 
         cdt = new CountDownTimer(180000, 20) {
@@ -29,16 +32,7 @@ public class BroadcastService extends Service {
             public void onTick(long millisUntilFinished) {
 
                 Log.i(TAG, "Countdown seconds remaining: " + millisUntilFinished / 1000);
-                if (java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished)== java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(cyclic)-20){
-                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
-                    mediaPlayer.start();
-                    cyclic = millisUntilFinished;
-                    if(millisUntilFinished <= 2000){
-                        Intent dialogIntent = new Intent(getApplicationContext(), GameOver.class);
-                        dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(dialogIntent);
-                    }
-                }
+
                 bi.putExtra("countdown", millisUntilFinished);
 
                 sendBroadcast(bi);
@@ -46,6 +40,9 @@ public class BroadcastService extends Service {
 
             @Override
             public void onFinish() {
+                Intent dialogIntent = new Intent(getApplicationContext(), GameOver.class);
+                dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(dialogIntent);
                 Log.i(TAG, "Timer finished");
             }
         };
