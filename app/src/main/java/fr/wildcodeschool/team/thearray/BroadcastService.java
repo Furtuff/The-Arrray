@@ -32,14 +32,7 @@ MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_
             public void onTick(long millisUntilFinished) {
 
                 Log.i(TAG, "Countdown seconds remaining: " + millisUntilFinished / 1000);
-                if (java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished)== java.util.concurrent.TimeUnit.MILLISECONDS.toSeconds(cyclic)-20){
-                    cyclic = millisUntilFinished;
-                    if(millisUntilFinished <= 2000){
-                        Intent dialogIntent = new Intent(getApplicationContext(), GameOver.class);
-                        dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(dialogIntent);
-                    }
-                }
+
                 bi.putExtra("countdown", millisUntilFinished);
 
                 sendBroadcast(bi);
@@ -47,6 +40,9 @@ MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_
 
             @Override
             public void onFinish() {
+                Intent dialogIntent = new Intent(getApplicationContext(), GameOver.class);
+                dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(dialogIntent);
                 Log.i(TAG, "Timer finished");
             }
         };

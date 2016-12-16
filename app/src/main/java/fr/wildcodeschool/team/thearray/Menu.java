@@ -28,4 +28,10 @@ public class Menu extends AppCompatActivity {
         }
     });
 }
+    @Override
+    public void onStart(){
+        super.onStart();
+        startService(new Intent(this,MusicMenuService.class));
+
+    }
 }

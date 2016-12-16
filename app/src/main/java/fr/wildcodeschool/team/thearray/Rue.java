@@ -26,7 +26,7 @@ TextView chrono;
         text = (TextView)findViewById(R.id.text);
         CountDownTimer cdt = null;
 
-        cdt = new CountDownTimer(18000, 80) {
+        cdt = new CountDownTimer(2500, 50) {
             @Override
 
             public void onTick(long millisUntilFinished) {
@@ -51,6 +51,7 @@ TextView chrono;
             public void onClick(View V){
                 {
                     Intent intent = new Intent(Rue.this, Entree.class);
+                    finish();
                     unregisterReceiver(br);
                     startActivity(intent);
                 }
