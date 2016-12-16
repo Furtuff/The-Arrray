@@ -17,10 +17,9 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
         app:srcCompat="@drawable/newrecord"
-        android:layout_alignParentStart="true"
         android:id="@+id/gif"
         android:layout_height="180dp" />
 
