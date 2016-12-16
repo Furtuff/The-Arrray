@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +24,9 @@ TextView chrono;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rue);
         startService(new Intent(this, BroadcastService.class));
+        //Typeface typeface = Typeface.createFromAsset(getAssets(),"nomduficher.ttf");
         text = (TextView)findViewById(R.id.text);
+        //text.setTypeface(typeface);
         CountDownTimer cdt = null;
 
         cdt = new CountDownTimer(2500, 50) {

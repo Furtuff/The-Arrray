@@ -22,6 +22,7 @@ public class BroadcastService extends Service {
         super.onCreate();
 MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.fart_raspberry);
         mediaPlayer.setLooping(true);
+        mediaPlayer.start();
 
         mediaPlayer.start();
         Log.i(TAG, "Starting timer...");

@@ -38,6 +38,7 @@ public class Glotte extends AppCompatActivity {
                         case 5: glotte.setImageResource(R.drawable.glotte03);
                             sequence++;
                             Intent intent = new Intent(Glotte.this, Vomi.class);
+                           finish();
                             startActivity(intent);
                             break;
 

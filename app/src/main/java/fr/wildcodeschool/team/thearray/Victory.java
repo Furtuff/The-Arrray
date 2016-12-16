@@ -11,5 +11,6 @@ public class Victory extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_victory);
         startService(new Intent(getApplicationContext(),MusicEndService.class));
+        getIntent().getLongExtra("score",0);
     }
 }
