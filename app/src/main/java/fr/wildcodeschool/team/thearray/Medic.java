@@ -34,7 +34,7 @@ public class Medic extends AppCompatActivity {
             @Override
 
             public void onTick(long millisUntilFinished) {
-                if(count <= chier.length()) {
+                if(count1 <= chier.length()) {
                     text.setText(chier.substring(0, count1));
                     count1++;
                 }
