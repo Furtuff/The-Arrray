@@ -17,7 +17,7 @@ public class Mamie extends AppCompatActivity {
 TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Tiens, une vieille dame\nElle me tends un cookie.\n C'est vraiment pas le moment là, mais je n'ose pas refuser";
+    String chier = "Tiens, une vieille dame\nElle me tends un cookie.\nC'est vraiment pas le moment là, mais je n'ose pas refuser.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

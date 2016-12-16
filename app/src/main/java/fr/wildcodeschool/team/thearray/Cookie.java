@@ -16,7 +16,7 @@ public class Cookie extends AppCompatActivity {
     TextView chrono;
     TextView text;
     int count =0;
-    String chier = "Je suis pas sûr là.\nDangereux...\nJe le mange (<--) ou pas (-->) ?";
+    String chier = "Je suis pas sûr.\nRisqué...\nJe le mange (<--) ou pas (-->) ?";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
