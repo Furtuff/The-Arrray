@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,6 +27,8 @@ TextView chrono;
         text = (TextView)findViewById(R.id.text);
         text.setTypeface(typeface);
         text.setTextSize(18);
+        MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.portebloqueson);
+        mediaPlayer.start();
         CountDownTimer cdt = null;
 
         cdt = new CountDownTimer(6250, 50) {

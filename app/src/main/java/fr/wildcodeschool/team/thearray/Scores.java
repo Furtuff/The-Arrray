@@ -14,8 +14,7 @@ public class Scores extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scores);
-        GifImageView gifview = (GifImageView)findViewById(R.id.gif);
-        gifview.setImageResource(R.drawable.scores);
+
         final Button btn = (Button) findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
 

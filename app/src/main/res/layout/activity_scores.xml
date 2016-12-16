@@ -19,7 +19,7 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
-        app:srcCompat="@drawable/newrecord"
+        android:background="@drawable/newrecord"
         android:id="@+id/gif"
         android:layout_height="180dp" />
 
